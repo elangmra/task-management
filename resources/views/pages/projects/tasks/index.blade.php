@@ -115,8 +115,8 @@
                                                 <form action="{{ route('tasks.update',$task->id) }}" method="post">
                                                     @csrf
                                                     @method('PUT')
-                                                    <input type="hidden" name="status" value="Done">
-                                                    <button type="submit" class="dropdown-item" >Done</button>
+                                                    <input type="hidden" name="status" value="Completed">
+                                                    <button type="submit" class="dropdown-item" >Completed</button>
 
                                                 </form>
                                             </li>

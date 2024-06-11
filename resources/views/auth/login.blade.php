@@ -18,7 +18,7 @@
             <div class="col-md-5">
                 <div class="card border-0">
                     <div class="card-body p-5">
-                        <a href="." class="fw-bold d-block fs-5 mb-4">Tasks</a>
+                        <a href="." class="fw-bold d-block fs-5 mb-4">Task Management</a>
 
                         <h5 class="text-dark fw-bold mb-4">Sign In</h5>
                         <form method="POST" action="{{ route('login') }}">
